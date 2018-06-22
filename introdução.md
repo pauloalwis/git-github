@@ -30,25 +30,25 @@
        ele vai nos informar que não tem nada para commitar.
 	 
       git commit
-	       
+      
 - #### As coisas que tem que ser commitadas tem que ser adicionadas
        primeiramente na 'STAGING AREA' ( pense 'STAGING AREA' como um container ), para 
        adicionar os arquivos para commite use a linha de comando:
      
 	 **imagem do staging area**
 	 
-        git add
+      git add
 
 - #### Para saber o que tem para commitar ou oque esta fora do container 
        use a linha de comando.	 
 	 
-	  git status
+      git status
 
-        - Apresentando em vermelho oque esta fora do container.
+     - Apresentando em vermelho oque esta fora do container.
 	 
 - #### Para adicionar todos os arquivos de uma só vez: 
 	 
-	  git add -A ou all
+      git add -A ou all
 	 
 - #### Para commitar as alterações e inclusões na 'STAGING AREA'
 
@@ -67,39 +67,39 @@
 
 - #### E se um arquivo for alterado?
     
-       - Alterando o arquivo.
+     - Alterando o arquivo.
 	   
-	 echo c2 > c.txt
-         ecat c.txt
+      echo c2 > c.txt
+      ecat c.txt
 	  
-	- Verificar mudanças, adicionar no 'STAGING AREA' e commitar 
+     - Verificar mudanças, adicionar no 'STAGING AREA' e commitar 
 	   
-	  git status
-          git add -A
-          git commit -m "Alterando c.txt"
+      git status
+      git add -A
+      git commit -m "Alterando c.txt"
 	
 - #### E se apenas o nome do arquivo for alterado?
     
-	- Alterando o nome do arquivo
+     - Alterando o nome do arquivo
 	
-	  mv c.txt c2.txt
+      mv c.txt c2.txt
 	
-	- Verificar mudanças, adicionar no 'STAGING AREA' e commitar 
+     - Verificar mudanças, adicionar no 'STAGING AREA' e commitar 
 	   
-	   git status
-	   git add -A
-	   git commit -m "Alterando o nome do arquivo para c2.txt"
+      git status
+      git add -A
+      git commit -m "Alterando o nome do arquivo para c2.txt"
 	 
 	 
 - #### Para mostrar um lista de log bem mais organizada
     
-       git log --oneline
+      git log --oneline
 
 - #### Comando utilizados nesta introdução:
     
-       - version
-       - init
-       - add
-       - status
-       - commit
-       - log
+     - version
+     - init
+     - add
+     - status
+     - commit
+     - log
