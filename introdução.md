@@ -25,7 +25,7 @@
       echo a > a.txt
       echo a > b.txt
 	 
-     - ##### Informando a linha de comando, ele vai nos informar que não tem nada para *commitar*.
+      Informando a linha de comando, ele vai nos informar que não tem nada para *commitar*.
 	 
       git commit
       
