@@ -12,15 +12,15 @@
   
       tree .git
   
-     - ##### O Git armazena o conteúdo de um jeito muito *diferente do outros* equanto os outros pensam em arquivos, o *git* armazena o conteúdo de uma só vez.
+     - O Git armazena o conteúdo de um jeito muito *diferente do outros* equanto os outros pensam em arquivos, o *git* armazena o conteúdo de uma só vez.
      
-     - ##### O Git representa a evolução do código-fonte por meio de um grafo de *commits*.
+     - O Git representa a evolução do código-fonte por meio de um grafo de *commits*.
 	 
 	 *imagem do grafo*
 	 	 
 - #### Criando o 1º commite
   
-     - ##### Adicionando 2 arquivos de textos na pasta.
+     - Adicionando 2 arquivos de textos na pasta.
          
       echo a > a.txt
       echo a > b.txt
@@ -41,7 +41,7 @@
       	 
       git status
 
-     - ##### Apresentando em vermelho oque esta fora do container.
+     - Apresentando em vermelho oque esta fora do container.
 	 
 - #### Para adicionar todos os arquivos de uma só vez: 
 	 
@@ -64,12 +64,12 @@
 
 - #### E se um arquivo for alterado?
     
-     - ##### Alterando o arquivo.
+     - Alterando o arquivo.
 	   
       echo c2 > c.txt
       ecat c.txt
 	  
-     - ##### Verificar mudanças, adicionar no *STAGING AREA* e commitar 
+     - Verificar mudanças, adicionar no *STAGING AREA* e commitar 
 	   
       git status
       git add -A
@@ -77,11 +77,11 @@
 	
 - #### E se apenas o nome do arquivo for alterado?
     
-     - ##### Alterando o nome do arquivo
+     - Alterando o nome do arquivo
 	
       mv c.txt c2.txt
 	
-     - ##### Verificar mudanças, adicionar no *STAGING AREA* e commitar 
+     - Verificar mudanças, adicionar no *STAGING AREA* e commitar 
 	   
       git status
       git add -A
