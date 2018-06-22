@@ -12,8 +12,8 @@
   
       tree .git
   
-     - ## O Git armazena o conteúdo de um jeito muito *diferente do outros*
-       equanto os outros pensam em arquivos, o *git* armazena o conteúdo de uma só vez.
+     - ##### O Git armazena o conteúdo de um jeito muito *diferente do outros*
+             equanto os outros pensam em arquivos, o *git* armazena o conteúdo de uma só vez.
      
      - O Git representa a evolução do código-fonte por meio de um grafo de *commits*.
 	 
