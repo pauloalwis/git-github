@@ -42,13 +42,13 @@
 - #### Para saber o que tem para commitar ou oque esta fora do container 
        use a linha de comando.	 
 	 
-	git status
+	  git status
 
         - Apresentando em vermelho oque esta fora do container.
 	 
 - #### Para adicionar todos os arquivos de uma só vez: 
 	 
-	git add -A ou all
+	  git add -A ou all
 	 
 - #### Para commitar as alterações e inclusões na 'STAGING AREA'
 
