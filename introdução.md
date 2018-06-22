@@ -1,16 +1,16 @@
 ## Canceitos Básicos:
 
 - #### Para verificar a versão instalada:
-  
-      ```git version```
+    
+      git version
   
 - #### Criando um repositório vazio dentro da pasta escolhida:
   
-      ```git init```
+      git init
 
 - #### Mostra a estrutura de pastas, onde o 'git' vai armazenar todo o projeto.
   
-      ```tree .git```
+      tree .git
   
    O Git armazena o conteúdo de um jeito muito 'diferente do outros'
      equanto os outros pensam em arquivos, o 'git' armazena o conteúdo de uma
