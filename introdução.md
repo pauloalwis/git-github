@@ -40,8 +40,7 @@
       git add
 
 - #### Para saber o que tem para commitar ou oque esta fora do container 
-       use a linha de comando.	 
-	 
+      	 
       git status
 
      - Apresentando em vermelho oque esta fora do container.
