@@ -12,30 +12,28 @@
   
       tree .git
   
-   O Git armazena o conteúdo de um jeito muito 'diferente do outros'
-     equanto os outros pensam em arquivos, o 'git' armazena o conteúdo de uma
-     só vez.
-
-	 O Git representa a evolução do código-fonte por meio de um grafo de 'commits'.
+     - O Git armazena o conteúdo de um jeito muito 'diferente do outros'
+       equanto os outros pensam em arquivos, o 'git' armazena o conteúdo de uma só vez.
+     
+     - O Git representa a evolução do código-fonte por meio de um grafo de 'commits'.
 	 
 	 *imagem do grafo*
 	 	 
 - #### Criando o 1º commite
   
-     4.1 Adicionando 2 arquivos de textos na pasta.
+         - Adicionando 2 arquivos de textos na pasta.
          
-		 ```echo a > a.txt
-            echo a > b.txt```
+	    echo a > a.txt
+            echo a > b.txt
 	 
-	 4.2 Informando a linha de comando,  
+	 - Informando a linha de comando,  
 	     ele vai nos informar que não tem nada para commitar.
 	 
-	     ```git commit```
-	 
-	      
+	     git commit
+	       
 - #### As coisas que tem que ser commitadas tem que ser adicionadas
-   primeiramente na 'STAGING AREA' ( pense 'STAGING AREA' como um container ), para 
-   adicionar os arquivos para commite use a linha de comando:
+       primeiramente na 'STAGING AREA' ( pense 'STAGING AREA' como um container ), para 
+       adicionar os arquivos para commite use a linha de comando:
      
 	 **imagem do staging area**
 	 
