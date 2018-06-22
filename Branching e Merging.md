@@ -2,11 +2,11 @@
 
 - #### O que é um branch e o que eu ganho em utilizá-lo?
     
-     - ##### Um 'branch' é uma nova linha de desenvolvimento que permite isolar o código de uma nova funcionalidade, mantendo a linha base 'estável', evitando o represamento de código.
+     - Um 'branch' é uma nova linha de desenvolvimento que permite isolar o código de uma nova funcionalidade, mantendo a linha base 'estável', evitando o represamento de código.
   
-- #### Para verificar uma *branch*
+- Para verificar uma *branch*
    
-      git branch```
+      git branch
 
 - #### Para criar uma *branch*
   
@@ -14,7 +14,7 @@
   
 - #### No *Git*, uma *branch* é apenas um ponteiro uma referência para um *commit*.
 
-     - ##### Podendo ser verificada com o comando:
+     - Podendo ser verificada com o comando:
 
       car .git/refs/heads/master
       car .git/refs/heads/umanovabranch
@@ -25,7 +25,7 @@
   
 - #### HEAD?
    
-     - ##### É onde se esta trabalhando no momento:
+     - É onde se esta trabalhando no momento:
    
       cat .git/HEAD
   
@@ -47,7 +47,7 @@
     
       git merge umanovabranch
   
-     - ##### A estratégia *FAST-FORWARD* é apenas uma atualização da referência e só é possível quando não existe divergência entre os *branchs*. 
+     - A estratégia *FAST-FORWARD* é apenas uma atualização da referência e só é possível quando não existe divergência entre os *branchs*. 
 
       git log --oneline --decorate --all
   
@@ -63,7 +63,7 @@
     
 - #### Criando uma 'divergência' entre o *master* e o *branch*
 
-     - ##### Criar branch:
+     - Criar branch:
 	  
 	  git branch feature2
 	  git checkout feature2
