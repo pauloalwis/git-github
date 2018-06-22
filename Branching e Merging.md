@@ -76,5 +76,5 @@
 	  git add -A
 	  git commit -m "e.txt"
   
-  min 10:31
+   
     
