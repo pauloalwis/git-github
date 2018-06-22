@@ -41,7 +41,7 @@
       	 
       git status
 
-     - Apresentando em vermelho oque esta fora do container.
+     - ##### Apresentando em vermelho oque esta fora do container.
 	 
 - #### Para adicionar todos os arquivos de uma só vez: 
 	 
