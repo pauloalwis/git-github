@@ -21,15 +21,15 @@
 	 	 
 - #### Criando o 1º commite
   
-       - Adicionando 2 arquivos de textos na pasta.
+     - Adicionando 2 arquivos de textos na pasta.
          
-	  echo a > a.txt
-          echo a > b.txt
+      echo a > a.txt
+      echo a > b.txt
 	 
-        - Informando a linha de comando,  
-	  ele vai nos informar que não tem nada para commitar.
+     - Informando a linha de comando,  
+       ele vai nos informar que não tem nada para commitar.
 	 
-	  git commit
+      git commit
 	       
 - #### As coisas que tem que ser commitadas tem que ser adicionadas
        primeiramente na 'STAGING AREA' ( pense 'STAGING AREA' como um container ), para 
