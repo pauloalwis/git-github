@@ -8,14 +8,14 @@
   
       git init
 
-- #### Mostra a estrutura de pastas, onde o 'git' vai armazenar todo o projeto.
+- #### Mostra a estrutura de pastas, onde o *git* vai armazenar todo o projeto.
   
       tree .git
   
-     - O Git armazena o conteúdo de um jeito muito 'diferente do outros'
-       equanto os outros pensam em arquivos, o 'git' armazena o conteúdo de uma só vez.
+     - ## O Git armazena o conteúdo de um jeito muito *diferente do outros*
+       equanto os outros pensam em arquivos, o *git* armazena o conteúdo de uma só vez.
      
-     - O Git representa a evolução do código-fonte por meio de um grafo de 'commits'.
+     - O Git representa a evolução do código-fonte por meio de um grafo de *commits*.
 	 
 	 *imagem do grafo*
 	 	 
@@ -27,12 +27,12 @@
       echo a > b.txt
 	 
      - Informando a linha de comando,  
-       ele vai nos informar que não tem nada para commitar.
+       ele vai nos informar que não tem nada para *commitar*.
 	 
       git commit
       
 - #### As coisas que tem que ser commitadas tem que ser adicionadas
-       primeiramente na 'STAGING AREA' ( pense 'STAGING AREA' como um container ), para 
+       primeiramente na 'STAGING AREA' ( pense *STAGING AREA* como um container ), para 
        adicionar os arquivos para commite use a linha de comando:
      
 	 **imagem do staging area**
@@ -49,7 +49,7 @@
 	 
       git add -A ou all
 	 
-- #### Para commitar as alterações e inclusões na 'STAGING AREA'
+- #### Para commitar as alterações e inclusões na *STAGING AREA*
 
         git commit -m "mensagem de commite"	
 
@@ -71,7 +71,7 @@
       echo c2 > c.txt
       ecat c.txt
 	  
-     - Verificar mudanças, adicionar no 'STAGING AREA' e commitar 
+     - Verificar mudanças, adicionar no *STAGING AREA* e commitar 
 	   
       git status
       git add -A
@@ -79,11 +79,11 @@
 	
 - #### E se apenas o nome do arquivo for alterado?
     
-     - Alterando o nome do arquivo
+     -  Alterando o nome do arquivo
 	
       mv c.txt c2.txt
 	
-     - Verificar mudanças, adicionar no 'STAGING AREA' e commitar 
+     - Verificar mudanças, adicionar no *STAGING AREA* e commitar 
 	   
       git status
       git add -A
