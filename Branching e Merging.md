@@ -75,6 +75,36 @@
 	  ech e > e.txt
 	  git add -A
 	  git commit -m "e.txt"
+	  git checkout master
+  
+          echo f > f.txt
+          git add -A
+          echo f > f.txt
+  
+          git add -A
+          git commit -m "f.txt"
+  
+          git log --oneline --decorate -all --graph
+  
+- #### Realizando um merge no feature2
+
+          git commit -m "merge feature2"
+  
+     - Terminando de trabalhar na feature2, vamos deletar
+
+           git branch -d feature2
+  
+  
+  
+- #### Comandos utilizados
+
+      branch
+      checkout
+      merge
+      add
+      status
+      commit
+      log  
   
    
     
