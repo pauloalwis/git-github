@@ -77,14 +77,14 @@
 	  git commit -m "e.txt"
 	  git checkout master
   
-          echo f > f.txt
-          git add -A
-          echo f > f.txt
-  
-          git add -A
-          git commit -m "f.txt"
-  
-          git log --oneline --decorate -all --graph
+	  echo f > f.txt
+	  git add -A
+	  echo f > f.txt
+	  
+	  git add -A
+	  git commit -m "f.txt"
+	  
+	  git log --oneline --decorate -all --graph
   
 - #### Realizando um merge no feature2
 
